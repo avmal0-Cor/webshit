@@ -1,5 +1,20 @@
-#test {
-	width: 100px;
-	height: 50px;
-
+html,body{
+		height: 100%;
 }
+
+body{
+			background: linear-gradient(#5B2071, #a43b76) no-repeat;
+}
+#test {
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+	margin-left: 43%;
+	margin-top:250px;
+		 transition: 1.4s
+}
+ 
+ #test:hover{
+ 
+ background-color: red;
+ }
