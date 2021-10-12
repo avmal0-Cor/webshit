@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,body{
 		height: 100%;
 }
@@ -5,6 +6,12 @@ html,body{
 body{
 			background: linear-gradient(#5B2071, #a43b76) no-repeat;
 }
+=======
+body{
+	background-color: #696969;
+}
+
+>>>>>>> 00e55643c33ba7313b41adf01203942d235b12d3
 #test {
 	width: 150px;
 	height: 50px;
