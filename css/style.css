@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html,body{
 		height: 100%;
 }
@@ -6,22 +6,32 @@ html,body{
 body{
 			background: linear-gradient(#5B2071, #a43b76) no-repeat;
 }
-=======
+
 body{
 	background-color: #696969;
 }
 
->>>>>>> 00e55643c33ba7313b41adf01203942d235b12d3
-#test {
-	width: 150px;
-	height: 50px;
-	border-radius: 50px;
-	margin-left: 43%;
-	margin-top:250px;
-		 transition: 1.4s
+.headLi ul{
+	float: right;
 }
- 
- #test:hover{
- 
- background-color: red;
+.headLi li{
+	font-family: Arial;
+	 display: inline; /* Отображать как строчный элемент */
+    margin-right: 10px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 5px; /* Поля вокруг текста */
+	background-color: white;
+	height: 35px;
+	float: right;
+
+	text-align: center;
+
+   }
+ a.headA :active, /* активная/посещенная ссылка */
+a.headA :hover, 
+a.headA  /* при наведении */
+{
+ 		text-decoration:none;
  }
+
+}
