@@ -1,10 +1,10 @@
-
+/*такое чувство, будто вы скопировали это из какого то туториала, или вы очень активно комментите*/
 html,body{
-		height: 100%;
+	height: 100%;
 }
 
 body{
-			background: linear-gradient(#5B2071, #a43b76) no-repeat;
+	background: linear-gradient(#5B2071, #a43b76) no-repeat;
 }
 
 body{
@@ -15,23 +15,22 @@ body{
 	float: right;
 }
 .headLi li{
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.5);
 	font-family: Arial;
-	 display: inline; /* Отображать как строчный элемент */
+	display: inline; /* Отображать как строчный элемент */
+	border-radius: 10px;
     margin-right: 10px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
+    border: 2px solid #000; /* Рамка вокруг текста */
     padding: 5px; /* Поля вокруг текста */
-	background-color: white;
 	height: 35px;
 	float: right;
-
 	text-align: center;
+}
 
-   }
- a.headA :active, /* активная/посещенная ссылка */
+a.headA :active, /* активная/посещенная ссылка */
 a.headA :hover, 
 a.headA  /* при наведении */
 {
- 		text-decoration:none;
- }
-
+ 	text-decoration:none;
 }
